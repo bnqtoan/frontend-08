@@ -1,0 +1,117 @@
+/* Quy định về body */
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.section{
+    padding: 80px 0;
+}
+
+.section-dark{
+    background: #0B0D17;
+    color: #fff;
+}
+
+.section-title{
+    margin: 0;
+    font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+}
+
+.container{
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.row-2 .col{
+    width: 50%;
+}
+
+.row-3 .col{
+    width: 33.33%;
+}
+
+@media(max-width: 768px){
+    .row-3{
+        flex-wrap: wrap;
+    }
+    .row-3 .col{
+        width: 100%;
+    }
+}
+
+ .the-box{
+    padding: 40px 32px;
+    background-color: #fff;   
+    color: #18191F;
+    border-radius: 8px;
+ }
+
+ .the-box h5{
+     font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+margin-bottom: 12px;
+margin-top: 0;
+ }
+
+ .the-box .icon{
+     margin-bottom: 56px;
+ }
+
+ .the-box a{
+
+ }
+
+ .text-center{
+     text-align: center;
+ }
+
+ .btn{
+     display: inline-flex;
+     align-items: center;
+     border-radius: 8px;
+     padding: 12px 20px;
+     gap: 16px;
+ }
+
+ .btn:hover .btn-icon{
+     transform: translateX(8px);
+     transition: all ease-in-out .3s;
+ }
+
+
+ .btn:hover{
+     transform: rotate(180deg);
+     transition: all ease-in-out .3s;
+ }
+
+ .btn-white-border{
+     color: #fff;
+     border: 1px solid #fff;
+ }
+
+ .btn-purple-border{
+     background: purple;
+     border: 1px solid purple;
+     color: #fff;
+     
+ }

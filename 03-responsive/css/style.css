@@ -1,0 +1,18 @@
+p{
+    color: red;
+}
+
+@media (min-width: 768px){
+    p{
+        color: black;
+    }
+}
+
+
+@media (min-width: 1024px){
+    p{
+        font-size: 1.5em;
+    }
+}
+
+
