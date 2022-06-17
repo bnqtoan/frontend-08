@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?659kqc');
+  src:  url('fonts/icomoon.eot?659kqc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?659kqc') format('truetype'),
+    url('fonts/icomoon.woff?659kqc') format('woff'),
+    url('fonts/icomoon.svg?659kqc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Star:before {
+  content: "\e91b";
+}
+.icon-Download:before {
+  content: "\e900";
+}
+.icon-Broadcast:before {
+  content: "\e901";
+}
+.icon-brochure:before {
+  content: "\e902";
+}
+.icon-calendar:before {
+  content: "\e903";
+}
+.icon-Call:before {
+  content: "\e904";
+}
+.icon-Consultant:before {
+  content: "\e905";
+}
+.icon-down-arrow-1:before {
+  content: "\e906";
+}
+.icon-Download-2:before {
+  content: "\e907";
+}
+.icon-Ebook:before {
+  content: "\e908";
+}
+.icon-Email:before {
+  content: "\e909";
+}
+.icon-Folder:before {
+  content: "\e90a";
+}
+.icon-Footprint:before {
+  content: "\e90b";
+}
+.icon-Hand-right:before {
+  content: "\e90c";
+}
+.icon-Landing-page:before {
+  content: "\e90d";
+}
+.icon-Like:before {
+  content: "\e90e";
+}
+.icon-More:before {
+  content: "\e90f";
+}
+.icon-Next:before {
+  content: "\e910";
+}
+.icon-PR:before {
+  content: "\e911";
+}
+.icon-Remove:before {
+  content: "\e912";
+}
+.icon-Search-2:before {
+  content: "\e913";
+}
+.icon-Search:before {
+  content: "\e914";
+}
+.icon-Send:before {
+  content: "\e915";
+  color: #565656;
+}
+.icon-Story:before {
+  content: "\e916";
+}
+.icon-Translate:before {
+  content: "\e917";
+}
+.icon-User:before {
+  content: "\e918";
+}
+.icon-Video:before {
+  content: "\e919";
+}
+.icon-View:before {
+  content: "\e91a";
+}

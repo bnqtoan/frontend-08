@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 4</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        @keyframes demo {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translateX(500px);
+                border-radius: 100%;
+                background-image: url("./images/bg.jpg");
+            }
+
+            100% {
+                transform: translate(500px, 500px);
+            }
+        }
+
+        .ani-demo {
+            animation: demo 2s infinite alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ani-demo bg-blue-500 w-[250px] h-[250px]">
+
+    </div>
+</body>
+
+</html>
