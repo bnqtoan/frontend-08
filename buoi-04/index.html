@@ -4,60 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animate Style</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Absolute</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <p class="wow animate__slideInUp">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut libero, non dicta nisi voluptate porro
-        fugit modi facilis explicabo sint corporis adipisci, beatae delectus reprehenderit quo! Saepe, reprehenderit ad!
-    </p>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        wow = new WOW(
-            {
-                boxClass: 'wow',      // default
-                animateClass: 'animate__animated', // default
-                offset: 200,          // default
-                mobile: true,       // default
-                live: true        // default
-            }
-        )
-        wow.init();
-    </script>
+    <ul class="flex gap-x-4">
+        <li><a class="hover:text-blue-500" href="./">Home</a></li>
+        <li><a href="./demo.html">Demo</a></li>
+        <li><a href="./wow.html">Wow</a></li>
+    </ul>
+    <div class="container my-80">
+        <div class="px-12 py-10 text-white rounded-lg bg-brand">
+            <div class="grid lg:grid-cols-2 gap-y-10">
+                <div>
+                    <h3>Headline</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a
+                        pharetra,
+                        feugiat cursus.
+                        Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non
+                        commodo
+                        volutpat, pharetra,
+                        vel.</p>
+                </div>
+                <div class="relative flex justify-center lg:block">
+                    <img class="lg:absolute lg:right-0 lg:transform lg:-translate-y-1/2 lg:top-1/2"
+                        src="./images/Feature/Single/Mobile/iPhone X.png" alt="iPhone">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

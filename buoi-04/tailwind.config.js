@@ -4,7 +4,14 @@ module.exports = {
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
+    container: {
+      center: true
+    },
+    extend: {
+      colors: {
+        brand: '#8C30F5'
+      }
+    },
   },
   variants: {
     extend: {},
